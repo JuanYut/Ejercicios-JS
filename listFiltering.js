@@ -12,5 +12,12 @@ function filter_list03(list) {
   return list.filter(v => !v.trim)
 }
 
-let arrayP = [0,1,2,'a','b',4]
+// Filtrar las letras.
+function filter_list04(list) {
+  return list.filter(v => v.trim)
+}
+
+let arrayP = [0,1,2,'?','b',4]
 console.log( filter_list01(arrayP) )
+
+console.log( filter_list04(arrayP) )
